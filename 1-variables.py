@@ -1,29 +1,34 @@
 # 1- les entiers 
 
-price = 2000
+age = 10
 
+print(age)
 # 2-les flottants
 
-tva = 0.18  # 18% les valeur décimales sont representées par des points et non des virgules
+price = 29.89
+print(price)
 
 # 3-les chaines de caractères
 
-nom = "John"
-bio = """ 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-"""
+name = "John"
 
-# 4-les booleens
+print(name)
 
-is_active = True
-is_not_active = False
+# 4-les booleens 
+# True avec T majuscule 
+# False avec F majuscule
+status = False
 
-
+print(status)
 
 # 5-Erreur commune de nomenclature 
+
+# 1price = 2000
+
+first_name = "John"
 
 ## 2price = 2000   
 
 ## nom nom = "John"
 
-## bank-account = 2000
+bankAccount = 2000
