@@ -1,30 +1,50 @@
 # 1)definir une chaine de charactères
+## my_string = "string"
 
-# 2)methodes usuelles pour manipuler des chaines de charactères
+# 2)afficher une chaine de charactères
+## print()
+## print(string)
 
-# 3)concaténation de chaines de charactères
+# 3)la longueur d'une chaine de charactères
+## find() 
+## string.find(value, start, end)
 
-# 4)mettre en majuscule une chaine de charactères
+# 4)la position d'une chaine de charactères
+## index()
+## string.index(value, start, end)
 
-## upper
+# 5)la sous chaine d'une chaine de charactères
+## slice()
+## string.slice(start, end)
 
-# 5)mettre en minuscule une chaine de charactères
+# 6)les methodes de chaine de charactères
+    ## isalnum()
+    ## isalpha()
+    ## isdigit()
+    ## islower()
+    ## isupper()
 
-## lower
+# 7) remplacer un element dans une chaine de charactères
+## replace()
+## string.replace(old, new, count)
 
-# 6)trouver la longueur d'une chaine de charactères
+# 8) supprimer les espaces dans une chaine de charactères
+## strip()
+## string.strip()
 
-## length
+# 9) verifier si une chaine de charactères commence par une chaine de charactères
+## startswith()
+## string.startswith(value, start, end)
 
-# 7)trouver la position d'un caractère dans une chaine de charactères
+# 10)verifier si une chaine de charactères se termine par une chaine de charactères
+## endswith() 
+## string.endswith(value, start, end)
 
-## index
+# 11) met en minuscule une chaine de charactères
+## lower()
+## string.lower()
 
-# 8)extraire une partie d'une chaine de charactères
-
-## slice
-
-# 9)supprimer une partie d'une chaine de charactères
-
-
+# 12) met en majuscule une chaine de charactères
+## upper()
+## string.upper()
 
