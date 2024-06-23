@@ -6,11 +6,11 @@ choix = ""
 while choix != "5":
     # Affichage du menu
     
-    print("1. Ajouter un article dans le panier")
-    print("2. Supprimer un article du panier")
-    print("3. Afficher tous les articles")
-    print("4. Vider le panier")
-    print("5. Quitter")
+    print("1. Ajouter un article dans le panier ")
+    print("2. Supprimer un article du panier ")
+    print("3. Afficher tous les articles ")
+    print("4. Vider le panier ")
+    print("5. Quitter ")
     # Saisie du choix par l'utilisateur
     choix = input("Quel est votre choix? ")
     if choix.isdigit() :
