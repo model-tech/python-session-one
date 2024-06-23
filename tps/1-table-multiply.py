@@ -1,3 +1,4 @@
+#table multi
 #demande à l'utilisateur d'entrer un nombre entre 2 et 9 
 S = input("entrez un nombre entre 2 et 9: ")
 #verifier que le nombre entré est numérique 
