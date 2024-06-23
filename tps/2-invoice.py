@@ -1,0 +1,12 @@
+print("****Bienvenue sur JUMIO S.A.R.L****")
+print("Votre facture: ")
+PU = input("P.U : ")
+Quantité = input("Quantité : ")
+Montant = int(PU)*int(Quantité)
+print("Montant HT: ", Montant ,"CFA")
+TVA= 0.18*int(Montant)
+print("TVA: ",TVA ,"CFA")
+TTC=int(Montant)+int(TVA)
+print("Montant TTC: ",TTC ,"CFA")
+  
+print("JUMIO vous Merci pour votre achat et vous souhaites de   Joyeuses fetes !!!!!!!")
