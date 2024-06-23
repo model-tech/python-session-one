@@ -1,2 +1,1 @@
-
-
+print("Bonjour la classe")
