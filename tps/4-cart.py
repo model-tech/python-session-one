@@ -1,3 +1,4 @@
+#cart
 # Initialisation de la variable choix
 choix = ""
 
