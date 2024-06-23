@@ -1,3 +1,4 @@
+#invoice
 #Afficher message de Bienvenue 
 print("****Bienvenue sur JUMIO S.A.R.L****")
 #Demander à l'utilisateur d'entrer le prix de l'article
