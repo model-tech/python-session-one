@@ -11,8 +11,8 @@ while True:
     choice= input("Quel est votre choix?:   ")
 
     while not (choice.isdigit() and int(choice) in range(1,6)):
-        print("Erreur! Veuillez choisir parmis les optionsd disponibles")
-        
+        print("Erreur! Veuillez choisir parmis les options disponibles")
+
     choice=int(choice)
     if choice==1:
         print("l'article a été bien ajouté dans votre panier")
@@ -28,3 +28,4 @@ while True:
     else: 
         print("Merci pour votre visite!!!")
         break
+
