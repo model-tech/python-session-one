@@ -1,4 +1,4 @@
-# Instructions  
+  # Instructions  
 
 Vous devez écrire un programme qui va afficher à l'utilisateur le menu suivant pour un panier numérique : 
 
