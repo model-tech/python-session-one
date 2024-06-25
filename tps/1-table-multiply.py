@@ -10,6 +10,3 @@ def afficher_table_multiplication():
             print("Le chiffre doit être entre 2 et 9.")
     except ValueError:
         print("Veuillez entrer un nombre valide.")
-
-# Appel de la fonction
-afficher_table_multiplication()
