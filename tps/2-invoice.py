@@ -1,8 +1,15 @@
+#afficher le message de bienvenue 
 print("*****Bienvenue sur JUMIO****")
+
+#demander à l'utilisateur d'entrer le prix unitaire de son article 
 
 price= input("Entrer le prix unitaire de votre article:    ")
 
+#demander à l'utilisateur d'entrer la quantité achetée unitaire de son article 
+
 qtity= input("Entrer la quantité achetée:    ")
+
+#vérification que les valeurs entrées sont des nombres et sont positifs
 
 while not (price.isdigit() and qtity.isdigit() and int(price)>0 and int(qtity)>0):
     print("Les valeurs entrées sont incorrectes.")
@@ -13,19 +20,19 @@ while not (price.isdigit() and qtity.isdigit() and int(price)>0 and int(qtity)>0
 price= int(price)
 qtity= int(qtity)
 
-#prix hors taxe
+#calcul du prix hors taxe
 
 ht_price= price*qtity
 
-#tva
+#montant de la tva
 rate=0.18
 tva= price*rate
 
-#prix ttc
+#calcul du prix ttc
 
 total_price=ht_price + tva
 
-#resultat à afficher
+#affichage de la facture
 
 print(f"""
     Votre facture: 
