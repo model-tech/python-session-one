@@ -7,28 +7,25 @@ S = input("le prix de l'article s'il vous plait : ")
 T = input("le nombre d'article s'il vous plait : ")
 #ici R représente le taux de la TVA
 R = 0.18
-#Verifier si s et T son numérique 
-if S.isdigit() and T.isdigit() :
-    #S et T sont numérique donc on va les transformer en entier 
-    A = int(S)
-    O = int(T)
-    #afficher le prix unitaire 
-    print(f"P.U : {A} CFA")
-    #afficher la quantité
-    print(f"Quantité : {O} ")
-    #calculez le Montant HT
-    E = A * O
-    #Afficher le Montant HT
-    print(f"Montant HT : {E} CFA")
-    #Calculer ma TVA 
-    L = R * E
-    #afficher la TVA
-    print(f"TVA : {L} CFA")
-    #afficher le Montant TTC
-    print(f"Montant TTC : {E + L} CFA")
-    #afficher le commentaire 
-    print("JUMIO vous Merci pour votre achat et vous souhaites de Joyeuses fetes !!!!!!!")
-else :
-    #Si S ou T n'est pas numérique 
-    print("S ou T n'est pas numérique")
+#ici tant que s et t sont pas numérique on affiche les messages
+while not (S.isdigit() and T.isdigit()) : 
+    print("Entrez des valeurs numériques")
+    S = input("le prix de l'article s'il vous plait : ")
+    T = input("le nombre d'article s'il vous plait : ")
+#S et T sont numérique donc on va les transformer en entier 
+A = int(S)
+O = int(T) 
+#on va calculer le prix , la TVA et le prix totale 
+price=A*O
+tva=price*R
+total_price=price+tva
+#on affiche le message avec les différent calcule effectué en haut
+print(f"""
+P.U : {A} CFA
+Quantité : {O}
+Montant HT : {price} CFA
+TVA : {tva} CFA
+Montant TTC : {total_price} CFA
+JUMIO vous Merci pour votre achat et vous souhaites de Joyeuses fetes !!!!!!!""")  
+
     

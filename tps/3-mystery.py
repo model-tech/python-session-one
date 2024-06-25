@@ -10,8 +10,15 @@ n = 0
 while n < 5 :
 #on incrémente la variable n c'est la meme chose que n = n +1  
     n += 1
-#ici déja le int veut dire directement que la valeur de t est un entier , je voulais pas utiliser isdigit 
-    t = int(input("entrez un nombre entre 1 et 100 " ))
+#ici on demande a entrer un nombre entre 1 et 100 
+    t = input("entrez un nombre entre 1 et 100 " )
+#ici tant que t est pas numérique et entier de t est pas compris entre 0 et 100
+    while not (t.isdigit() and 0<int(t)<=100) : 
+#on affiche erreur et on lui dit d'entrer un nombre entre 1 et 100
+        print("erreur") 
+        t = input("entrez un nombre entre 1 et 100 " )
+#on transforme t en entier 
+    t = int(t)    
 #ici on vérifie que la valeur entré est inférieur à notre valeur choisie aléatoirement
     if t < a : 
 #ici il affiche le message car t < a
@@ -22,12 +29,13 @@ while n < 5 :
         print("Très grand! choisir un autre plus petit")
 #ici on vérifie que la valeur entré est égale à notre valeur choisie aléatoirement
     elif t == a :
-#ici on affiche le message car t = a
+#ici on affiche le message car t = a et on arrete le programme
         print("Bravo!!!! vous avez trouvé le bon nombre!!!")
-
-"""ici nous sommes or de la boucle, c'est à dire que l'utilisateur a épuisé ses 5 chances
+        break
+else : 
+    """ici nous sommes or de la boucle, c'est à dire que l'utilisateur a épuisé ses 5 chances
 et n'a pas trouvé donc on affiche les 2 messages """
-print("Game over!!!")  
-print(f"le nombre cherché était {a}")         
+    print("Game over!!!")  
+    print(f"le nombre cherché était {a}")         
 
         
