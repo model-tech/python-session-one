@@ -1,3 +1,4 @@
+choix = ""
 while choix !="5":
       print("1-Ajouter un article")
       print("2-Supprimer un article")
