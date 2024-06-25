@@ -1,12 +1,19 @@
-#afficher le menu 
+#Le nombre aléatoire
+import random 
 
 
-print("""
-Choisissez parmi les 5 options suivantes: 
+nombre=random.randint(1,100)
 
-1- Ajouter un article dans le panier
-2- Supprimer un article du panier
-3- Afficher tous les articles 
-4- Vider le panier
-5- Quitter
-""")
+
+for i in range(1,6):
+    print(f"Essai no {i}")
+    devine= int(input("Entrer un entier entre 1 et 100: "))
+    if devine < nombre:
+        print("Très petit! choisir un autre plus grand")
+
+    elif devine >nombre:
+        print("Très grand! choisir un autre plus grand")
+    else :
+        print("Bravo!!!! vous avez trouvé le bon nombre!!!")
+        break
+

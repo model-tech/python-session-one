@@ -1,58 +1,34 @@
-#afficher le menu 
+while True:
+    print("""
+    Choisissez parmi les 5 options suivantes: 
 
+    1- Ajouter un article dans le panier
+    2- Supprimer un article du panier
+    3- Afficher tous les articles 
+    4- Vider le panier3
+    5- Quitter
+    """)
 
-print("""
-Choisissez parmi les 5 options suivantes: 
+    choice = input("Quel est votre choix ? ")
 
-1- Ajouter un article dans le panier
-2- Supprimer un article du panier
-3- Afficher tous les articles 
-4- Vider le panier
-5- Quitter
-""")
+    while not choice.isdigit() or int(choice) not in range(1, 6):
+        print("Mauvaise entrée, veuillez entrer une valeur entre 1 et 5.")
+        choice = input("Quel est votre choix ? ")
 
-#Entrez le choix1
+    onechoice = int(choice)
 
-choice=input("Quel est votre choix ?")
-#conditions de validité du choix 
+    if onechoice == 1:
+        print("** L'article a été bien ajouté dans votre panier **")
 
+    elif onechoice == 2:
+        print("** L'article a été bien supprimé de votre panier **")
 
-while choice not in range(1,6) and choice.isdigit==False:
-    print(" ```mauvaise entrée, veuillez entrer une valeur entre 1 et 5```")
-    choice=input("Quel est votre choix ?")
-    while choice in range(1,6) and choice.isdigit==True:
-        print("""```
-                    Choisissez parmi les 5 options suivantes: 
+    elif onechoice == 3:
+        print("** Voici la liste des articles du panier **")
 
-                    1- Ajouter un article dans le panier
-                    2- Supprimer un article du panier
-                    3- Afficher tous les articles 
-                    4- Vider le panier
-                    5- Quitter
+    elif onechoice == 4:
+        print("** Votre panier a bien été supprimé **")
 
-
-                    ```""")
-
-                    
-        choice=input("Quel est votre choix ?")
-
-        if choice== "1":
-            print("_**l'article a été bien ajouté dans votre panier**")
-                        
-            
-        elif choice== "2":
-            print("**l'article a été bien supprimé de votre panier**")
-                        
-            
-            
-        elif choice== "3":
-            print("**voici la liste des articles du panier**")
-                        
-            
-        elif choice== "4":
-            print("**votre panier a bien été supprimé**")
-                        
-                
-        else:
-            print("**Merci pour votre visite!!!*")
-                
+    elif onechoice == 5:
+        print("** Merci pour votre visite!!! **")
+        break  
