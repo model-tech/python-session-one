@@ -107,20 +107,20 @@ else:
 
 ## and
 
-# note = input("Quelle est votre note ? ")
+note = input("Quelle est votre note ? ")
 
-# if int(note) < 10:
-#     print("Insuffisant")
-# elif int(note) >= 10 and int(note) < 12:
-#     print("Passable")
-# elif int(note)>= 12 and int(note) < 14:
-#     print("Assez bien")
-# elif int(note)>= 14 and int(note) < 16:
-#     print("Bien")
-# elif int(note)>= 16 and int(note) < 18:
-#     print("Tres bien")
-# elif int(note)>= 18:
-#     print("Excellent")
+if int(note) < 10:
+    print("Insuffisant")
+elif int(note) >= 10 and int(note) < 12:
+    print("Passable")
+elif int(note)>= 12 and int(note) < 14:
+    print("Assez bien")
+elif int(note)>= 14 and int(note) < 16:
+    print("Bien")
+elif int(note)>= 16 and int(note) < 18:
+    print("Tres bien")
+elif int(note)>= 18:
+    print("Excellent")
 
 ## or
 

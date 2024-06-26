@@ -12,7 +12,8 @@ fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
 
 # 3)ajouts d'elements dans une liste 
 
-## append
+## append*
+print(fruits)
 
 # fruits.append("kiwi")
 
@@ -30,7 +31,7 @@ fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
 
 ## pop
 
-# fruits.pop(2)
+# fruits.pop()
 
 # print(fruits)
 
@@ -78,15 +79,15 @@ fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
 
 ## sort
 
-# print(fruits)
+    # print(fruits)
 
-# fruits.sort()
+    # fruits.sort(reverse=True)
 
-# print(fruits)
+    # print(fruits)
 
 
-notes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-notes.sort(reverse=True)
+# notes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# notes.sort(reverse=True)
 
-print(notes)
+# print(notes)
 
