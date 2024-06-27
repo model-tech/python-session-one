@@ -7,9 +7,9 @@ if nombre_choisi.isdigit():
     nombre= int(nombre_choisi)
     if (nombre >=2) and (nombre <=9):
         for i in range (1,13):
-            print(f"{nombre} x {i}) = {nombre*i}")
+            print(f"{nombre} x {i} = {nombre*i}")
     else:
             print("enter un nombre entre 2 et 9")
-   else
-          print("entrez un nombre numérique") 
+else:
+     print("entrez un nombre numérique") 
  
