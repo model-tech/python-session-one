@@ -90,3 +90,5 @@ notes.sort(reverse=True)
 
 print(notes)
 
+notes.reverse
+print (notes)
