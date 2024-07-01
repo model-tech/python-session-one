@@ -1,5 +1,5 @@
 a=print("Bienvenue sur JUMIO S.A.R.L")
-prix_unitaire=float(input("entrez le prix unitaire"))
+prix_unitaire=float(input("entrez le  prix unitaire"))
 quantite=float(input("entrez la quantite"))
 prix_ht=float(input("entrez le montant ht"))
 prix_tva=float(input("entrez le montant tva")) 
