@@ -9,8 +9,7 @@ while True :
     4. Vider le panier
     5. Quitter """)
     sa = input("Quel est votre choix? ")
-    #tant que sc n'est pas numérique et l'entier de sc n'est entre 1 et 5
-    #il affiche le message d'erreur et le menu
+    
     while not (sa.isdigit() and int(sa) in range(1,6)) : 
         print("erreur, entrez un nombre entre 1 et 5")
         print(f"""
@@ -20,7 +19,7 @@ while True :
             4. Vider le panier
             5. Quitter  """)
         sa = input("Quel est votre choix?" )
-#si le choix est 1  
+#si l'utilisateur choisi 1  
     if sa == "1":
         a = input("entrez un article: ")
         b = input("entrez le prix de l'article: ")
@@ -35,7 +34,7 @@ while True :
         panier.append(c)
         print("article ajouté au panier")
             
-# Si le choix est 2
+# Si  l'utilisateur choisi 2
     elif sa == "2":
         d =input("quelle est le nom de l'artcle à supprimer: ")
         while not (d.isalpha()):
@@ -50,17 +49,17 @@ while True :
                 print("Aucun article avec ce nom dans le panier.")
                 
         
-#si le choix est 3        
+#si l'utilisateur choisi 3        
     elif sa == "3":
         print(panier)
         for c in panier : 
                 print(f" {c['name']} = {c['price']}") 
             
-# Si le choix est 4
+#si l'utilisateur choisi 4
     elif sa == "4":
         panier.clear()
         print("tous les élément ont été supprimé")
-# Si le choix est 5
+#si l'utilisateur choisi 5
     else :        
 # Affichage d'un message de fin et on arrete le programme 
         print("Fin du programme")
