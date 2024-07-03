@@ -1,34 +1,13 @@
-# 1- les entiers 
-
-age = 10
-
-print(age)
-# 2-les flottants
-
-price = 29.89
+#
+print("bonjour la classe")
+price = 39
 print(price)
-
-# 3-les chaines de caractères
-
-name = "John"
-
+age = "ali"
+print(age)
+name = "je veut manger de la salade"
 print(name)
-
-# 4-les booleens 
-# True avec T majuscule 
-# False avec F majuscule
-status = False
-
+alo = """jeveux tuer le gars qui me
+manque du respect"""
+print(alo)
+status = "true or false"
 print(status)
-
-# 5-Erreur commune de nomenclature 
-
-# 1price = 2000
-
-first_name = "John"
-
-## 2price = 2000   
-
-## nom nom = "John"
-
-bankAccount = 2000

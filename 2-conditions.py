@@ -1,6 +1,6 @@
 # 1) if 
 
-age = input("Quel est votre age ? ")
+#age = input("Quel est votre age ? ")
 # "28" != 28
 # int("28") ===> 28
 # float("28.6") ===> 28.6
@@ -29,16 +29,16 @@ age = input("Quel est votre age ? ")
 # int(age) ==> int("20 ans")
 
 
-if age.isdigit():
-    age = int(age)
-    if age > 18:
-        print("Vous etes majeur")
-    elif age == 18:
-        print("Vous êtes juste majeur")
-    else:
-        print("Vous etes mineur")
-else:
-    print("Veuillez entrer une valeur numerique")
+# age.isdigit():
+ #   age = int(age)
+  #  if age > 18:
+   #     print("Vous etes majeur")
+    #elif age == 18:
+    #    print("Vous êtes juste majeur")
+    #else:
+  #      print("Vous etes mineur")
+#else:
+ #   print("Veuillez entrer une valeur numerique")
 
 
 
@@ -107,20 +107,20 @@ else:
 
 ## and
 
-note = input("Quelle est votre note ? ")
+#note = input("Quelle est votre note ? ")
 
-if int(note) < 10:
-    print("Insuffisant")
-elif int(note) >= 10 and int(note) < 12:
-    print("Passable")
-elif int(note)>= 12 and int(note) < 14:
-    print("Assez bien")
-elif int(note)>= 14 and int(note) < 16:
-    print("Bien")
-elif int(note)>= 16 and int(note) < 18:
-    print("Tres bien")
-elif int(note)>= 18:
-    print("Excellent")
+#if int(note) < 10:
+ #   print("Insuffisant")
+#elif int(note) >= 10 and int(note) < 12:
+    #print("Passable")
+#elif int(note)>= 12 and int(note) < 14:
+   # print("Assez bien")
+#elif int(note)>= 14 and int(note) < 16:
+   # print("Bien")
+#elif int(note)>= 16 and int(note) < 18:
+ #   print("Tres bien")
+#elif int(note)>= 18:
+ #   print("Excellent")
 
 ## or
 
@@ -128,7 +128,7 @@ elif int(note)>= 18:
 
 # 8) verifier qu'une variable est alphabetique
 
-# name = input("Quel est votre nom ? ")
+#name = input("Quel est votre nom ? ")
 # name = "2233333"
 # if (name.isdigit()):
 #     print("Le nom est numerique")
@@ -144,5 +144,33 @@ elif int(note)>= 18:
 # 10) verifier qu'une variable est alphabetique et numerique
 
 ## isalnum
+# note = input("Quelle est votre note ? ")
+#if int(note) < 10:
+  #  print("Insuffisant")
+#elif int(note) >= 10 and int(note) < 12:
+  #  print("Passable")
+#elif int(note)>= 12 and int(note) < 14:
+#    print("Assez bien")
+#elif int(note)>= 14 and int(note) < 16:
+#    print("Bien")
+#elif int(note)>= 16 and int(note) < 18:
+ #   print("Tres bien")
+#elif int(note)>= 18:
+#    pr#
+#
+#
+##
+##
+#
+#
+note = "alias m mafia"
+if note.isdigit:
+    print("c'est une valeur numerique")
+else:
+    print("ce n'est pas une valeur numerique")
 
-
+name = input("quel est votre age")
+if input(name) < 18 :
+    print("je suis mineur")
+elif input(name) >= 18 and input(name) < 19 :
+    print("je suis juste majeur")

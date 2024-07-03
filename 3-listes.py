@@ -1,10 +1,10 @@
 # 1) creation d'une liste vide 
 
-students = []
+#students = []
 
 # 2)creation d'une liste avec des elements
 
-fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
+#fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
          # 0        1          2           3          4          5 
          # -6       -5         -4          -3         -2         -1
 
@@ -13,7 +13,7 @@ fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
 # 3)ajouts d'elements dans une liste 
 
 ## append*
-print(fruits)
+#print(fruits)
 
 # fruits.append("kiwi")
 
@@ -90,4 +90,6 @@ print(fruits)
 # notes.sort(reverse=True)
 
 # print(notes)
-
+fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
+#print(fruits[3])
+fruits.append("banane")
