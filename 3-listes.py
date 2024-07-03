@@ -92,4 +92,11 @@
 # print(notes)
 fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
 #print(fruits[3])
-fruits.append("banane")
+#fruits.append("banane")
+feculents = ["pomme", "fraise", "pomme", "banane", "ananas", "citron"]
+fruits_et_feculents = fruits + feculents
+print(fruits_et_feculents)
+ 
+
+fruits.insert(2,"mangue")
+print(fruits)

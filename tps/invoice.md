@@ -5,11 +5,6 @@
 
 ## Le programme demandera la prix de l'article et la quantité acheté.  
 ## Ensuite il affichera les informations suivantes par exemple:  
-
- ```python
- Votre facture: 
-P.U :  2000 CFA 
- Quantité : 5 
  Montant HT :  10000 CFA 
  TVA :  1800 CFA
  Montant TTC : 11800 CFA
