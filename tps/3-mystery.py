@@ -6,10 +6,10 @@ the_number = random.randint(1,100)
 the_try = range(1,6)
 
 for i in the_try:
-    print(f"Essai n{i}")
+    print(f"Essai n°{i}")
     number = input("Entrer un entier entre 1 et 100: ")
     while not (number.isdigit() and 1 <= int(number) <= 100):
-        print(f"Essai n{i}")
+        print(f"Essai n°{i}")
         number = input("Entrer un entier entre 1 et 100: ")
     else:
         if 1<=i<5:
