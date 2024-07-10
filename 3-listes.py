@@ -89,14 +89,7 @@
 # notes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # notes.sort(reverse=True)
 
-# print(notes)
-fruits = ["pomme", "cerise", "orange", "banane", "mangue", "poire"]
-#print(fruits[3])
-#fruits.append("banane")
-feculents = ["pomme", "fraise", "pomme", "banane", "ananas", "citron"]
-fruits_et_feculents = fruits + feculents
-print(fruits_et_feculents)
- 
-
-fruits.insert(2,"mangue")
-print(fruits)
+# prin#
+description = """bonjour les amis j'espers que vous allez bien, je penses que je vais 
+passer chez vous d'un moment a l'autre oky """
+print(description.replace ("penses" , "love"))
